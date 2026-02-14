@@ -140,15 +140,32 @@ This is the list of projects completed in the 2025 programme.
 ***
 
 ## MuseGan
+
 ### Description
+MuseGan is a GAN-based project for generating multi-track polyphonic music. It can generate coherent 4-bar music for 5 instruments from scratch and also supports Human-AI collaboration by conditionally generating tracks based on one human input track.
 
 ### Output images
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/084d9045-3254-47cf-ad04-376a9f79c8ac" alt="Conditional Model Diagram" width="600"/>
+</p>
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/02bcc0b9-4b67-447f-af9f-041067b28a8b" alt="Conditional Outputs" width="600"/>
+</p>
 
 ### References
+Checkpoints for this model after 25 epochs: [MuseGan Conditional Track](https://www.kaggle.com/datasets/pratyushrao/musegan-conditional-track-ckpt-25-epooch)  
+Full documentation and details in [musegan.md](./musegan.md)
 
 **Mentors:**
+- [Kavya Rambhia](https://github.com/kavya-r30)  
+- [Swayam Shah](https://github.com/sonu0305)
 
-**Domains:**
+**Domains:**  
+- Music Generation  
+- Symbolic Polyphonic Music  
+- Generative Adversarial Networks (GANs)  
+- Temporal Sequence Modeling  
+- Human-AI Collaboration
 
 ***
 
