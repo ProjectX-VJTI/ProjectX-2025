@@ -153,10 +153,6 @@ MuseGan is a GAN-based project for generating multi-track polyphonic music. It c
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b926765e-d4f7-49e5-a967-e3168d6676db" alt="Pianoroll Output" width="600"/>
 </p>
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/0351af9d-ffe3-4755-a628-47327e6d899f" alt="Generator Loss" width="400"/>
-  <img src="https://github.com/user-attachments/assets/df9b0600-6f0d-4db4-be56-c18666f18acd" alt="Discriminator Loss" width="400"/>
-</p>
 
 #### Conditional Track
 <p align="center">
