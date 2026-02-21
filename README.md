@@ -315,14 +315,23 @@ It combines compiler concepts with AI-based summarization to help users understa
 
 ## Cryptanalysis
 ### Description
-
+Cryptanalysis is a hybrid framework combining energy-based learning, side-channel analysis, and classical cryptography to analyze multiple ciphers. It first detects the cipher (AES, DES, Speck, or Vigenère), then applies an appropriate side-channel attack method with CNN-based key recovery for DES and Speck, statistical techniques for Vigenère, and only detection for AES due to its robustness. The system highlights how different ciphers require distinct attack strategies and demonstrates both practical vulnerabilities and modern security limits.
+   
 ### Output images
+<img width="1865" height="1144" alt="DES_sca" src="https://github.com/user-attachments/assets/1f6ed8d9-6b5a-4aa9-9e33-ca41352b7ac1" />
+<img width="1860" height="937" alt="speck32_sca" src="https://github.com/user-attachments/assets/9c18ab9f-8508-4076-822d-809fa6639938" />
+<img width="801" height="469" alt="energy_classifier_accuracy" src="https://github.com/user-attachments/assets/eda966e2-7aa5-4820-956c-1f5071967215" />
+<img width="821" height="474" alt="vignere_final_loss - 2" src="https://github.com/user-attachments/assets/5f6827f6-14f3-4619-bfc1-c5a1dd8d8783" />
 
 ### References
-
+- [Repository Link](https://github.com/AnuushkaY/EnergyBased-and-Neurosymbolic-Methods-for-Advanced-CrypytAnalysis)  
+- [Documentation Link](https://anuushkay.github.io/Cryptanalysis_Documentation/)
+  
 **Mentors:**
-
-**Domains:**
+- [Afreen Kazi](https://github.com/Afreen-Kazi-1)  
+- [Ghruank Kothare](https://github.com/Ghruank)
+  
+**Domains:**- Cryptanalysis, Side Channel Analysis, Energy-Based Models, Deep Learning, Cybersecurity, Classical Cryptography 
 
 ***
 
@@ -335,6 +344,7 @@ It combines compiler concepts with AI-based summarization to help users understa
 
 **Mentors:**
 
-**Domains:**
+**Domains:** 
+
 
 ***
