@@ -331,7 +331,7 @@ Cryptanalysis is a hybrid framework combining energy-based learning, side-channe
 - [Afreen Kazi](https://github.com/Afreen-Kazi-1)  
 - [Ghruank Kothare](https://github.com/Ghruank)
   
-**Domains:**- Cryptanalysis, Side Channel Analysis, Energy-Based Models, Deep Learning, Cybersecurity, Classical Cryptography 
+**Domains:** Side Channel Analysis, Energy-Based Models, Deep Learning, Cybersecurity, Classical Cryptography 
 
 ***
 
