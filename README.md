@@ -113,14 +113,42 @@ $$Q(s, a) \leftarrow Q(s, a) + \alpha [R + \gamma \max_{a'} Q(s', a') - Q(s, a)]
 
 ## Reinforcents
 ### Description
+<strong>ReinforCents</strong> is a project that simulates a real-world stock and options trading market using Reinforcement Learning. It creates a virtual exchange where multiple intelligent agents interact and execute trades, similar to how trading happens in real financial markets.
+
+The market is populated with three types of traders, each with unique behaviors and strategies:
+
+- **Market Makers:** Provide liquidity by quoting bid/ask prices.
+- **Institutional Traders:** Execute large, sophisticated, and long-term strategies.
+- **Retail Traders:** Emulate the behavior of individual, often sentiment-driven, investors.
+
+The system includes a working electronic exchange with a live order book, automatic trade matching, and real-time trade execution. The agents operate in this environment using advanced reinforcement learning algorithms, including:
+
+- **Soft Actor-Critic (SAC)** for Market Makers  
+- **Deep Deterministic Policy Gradient (DDPG)** for Institutional Traders  
+
+Agents make decisions using financial modeling tools such as:
+
+- Black-Scholes option pricing model  
+- Option Greeks (Delta, Gamma, Theta, Vega)  
+- Technical indicators (EMA, RSI, Stochastic Oscillator, ADX, CMF)
+
+The project demonstrates how multiple AI agents can learn, compete, and make decisions within a simulated stock and options trading environment.
 
 ### Output images
+![Output image](https://raw.githubusercontent.com/dagaaryan011/Reinforcents/main/output.png)
 
 ### References
+- [Reinforcement Learning](https://arxiv.org/pdf/2408.07712)
+- [Soft Actor-Critic (SAC)](https://spinningup.openai.com/en/latest/algorithms/sac.html)
+- [Deep Deterministic Policy Gradient (DDPG)](https://spinningup.openai.com/en/latest/algorithms/ddpg.html)
+- [Options Trading](https://zerodha-common.s3.ap-south-1.amazonaws.com/Varsity/Modules/Module%205_Options-Theory-for-Professional-Trading.pdf) 
+- Technical Indicators - EMA, RSI, Stochastic Oscillator, ADX, CMF
 
 **Mentors:**
+- Mudit Jain
+- Krish Shah
 
-**Domains:**
+**Domains:**  Reinforcement Learning, Options Trading, Multi-Agent Systems
 
 ***
 
