@@ -31,7 +31,6 @@ The project integrates three state-of-the-art architectures:
 * **Tacotron 2:** Generates speaker-conditioned Mel-spectrograms from text.
 * **WaveGlow:** A flow-based neural vocoder for natural waveform generation.
 
----
 
 ### Output
 
@@ -62,8 +61,6 @@ Achieved stable separation across 40+ speakers. t-SNE plots show distinct identi
 [Download/Listen to Audio Sample](https://raw.githubusercontent.com/nihira20/Fake_My_Voice/main/images/model_output_fmv.wav)
 
 > *The audio says : "Use this model to clone the voice of any user"*
-
----
 
 ### References
 * **Source Code:** [FakeMyVoice-Project-X-2025](https://github.com/nihira20/Fake_My_Voice)
